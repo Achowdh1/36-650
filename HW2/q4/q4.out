@@ -1,0 +1,7 @@
+postgres=# select * from rdata;
+ id |   a   |   b   |   moment   |   x   
+----+-------+-------+------------+-------
+  1 | row1a | row1b | 2020-01-01 | 10.00
+  2 | row2a | row2b | 2020-01-01 | 20.00
+  3 | row3a | row3b | 2020-01-01 | 40.00
+(3 rows)

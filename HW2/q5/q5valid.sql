@@ -1,0 +1,1 @@
+insert into rdata (a, b, x) values ('row4a', 'row4b', 80);
