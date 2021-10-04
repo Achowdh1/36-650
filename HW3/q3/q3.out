@@ -1,0 +1,13 @@
+postgres=# \d teams;
+                     Table "public.teams"
+   Column   |      Type      | Collation | Nullable | Default 
+------------+----------------+-----------+----------+---------
+ id         | character(3)   |           | not null | 
+ location   | text           |           |          | 
+ name       | text           |           |          | 
+ division   | divisiontype   |           |          | 
+ conference | conferencetype |           |          | 
+Indexes:
+    "teams_pkey" PRIMARY KEY, btree (id)
+
+postgres=# 
