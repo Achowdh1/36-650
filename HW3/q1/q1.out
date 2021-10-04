@@ -1,0 +1,30 @@
+postgres-# \! pwd
+/Users/anirbanchowdhury/Downloads
+postgres-# \i player_stats.sql
+player_stats.sql: No such file or directory
+postgres-# \i player-stats.sql
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+COPY 476
+COPY 476
+COPY 476
+postgres-# \d
+                            List of relations
+ Schema |                   Name                   |   Type   |  Owner   
+--------+------------------------------------------+----------+----------
+ public | emline                                   | table    | postgres
+ public | more_player_stats                        | table    | postgres
+ public | more_player_stats_id_seq                 | sequence | postgres
+ public | player_bios                              | table    | postgres
+ public | player_bios_id_seq                       | sequence | postgres
+ public | player_stats                             | table    | postgres
+ public | player_stats_id_seq                      | sequence | postgres
+ public | products                                 | table    | postgres
+ public | products_product_id_seq                  | sequence | postgres
+ public | products_with_constraints                | table    | postgres
+ public | products_with_constraints_product_id_seq | sequence | postgres
+ public | rdata                                    | table    | postgres
+ public | rdata_id_seq                             | sequence | postgres
+ public | tmz                                      | table    | postgres
+(14 rows)
