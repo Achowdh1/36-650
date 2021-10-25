@@ -11,8 +11,7 @@ import psycopg2
 
 
 def execQuery(q):
-    conn = psycopg2.connect(host="localhost", port="5432", user="postgres", 
-                            password="7135", 
+    conn = psycopg2.connect(host="localhost", port="5432", user="postgres", password="7135", 
                             database="postgres"
                         )
     cur = conn.cursor()
