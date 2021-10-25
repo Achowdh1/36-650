@@ -12,9 +12,7 @@ import psycopg2
 
 
 def execQuery(q):
-    conn = psycopg2.connect(host="localhost", 
-                            port="5432", 
-                            user="postgres", 
+    conn = psycopg2.connect(host="localhost", port="5432", user="postgres", 
                             password="7135", 
                             database="postgres"
                         )
@@ -23,8 +21,7 @@ def execQuery(q):
     print("Unformatted Results:")
     print (cur.description)
     print("\n\n Formatted Results:")
-    for row in cur:
-        print (row)
+    for row in cur: print (row)
     cur.close()
     conn.close()
 
