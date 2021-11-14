@@ -1,0 +1,3 @@
+Tuples are more appropriate. They do not allow mutations of the data stored,
+which is ideal for this setting. They are also slightly faster for lookups,
+making them more useful than lists for this scenario.
